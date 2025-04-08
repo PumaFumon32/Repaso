@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chabacier</title>
+    <link rel="shortcut icon" href="images/school.svg" type="image/svg">
+    <link rel="stylesheet" href="/styles/style.css">
+    <style>
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="cabecera" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center;">IES Leonardo de Chabacier</h1>
+    <h2>Creación de páginas web</h2>
+    <p>En este curso aprenderás a crear páginas web con <b>HTML</b>, <i>CSS</i> y <u>JavaScript</u></p>
+    <button class="boton" onclick="changeColor('darkblue')">Azul</button>
+    <button class="boton" onclick="changeColor('darkred')" >Rojo</button>
+    <button class="boton" onclick="changeColor('black')">Negro</button>
+    <br>
+    <button onclick="changeBackColor('white')" >Blanco</button>
+    <button onclick="changeBackColor('lightgrey')" >Gris</button>
+    <br>
+    <a class="enlace" href="https://chatgpt.es/" target="_blank">Chat GPT</a>
+    <a class="enlace" href="https://chatgpt.es/" target="_blank">Chat GPT</a>
+    <br>
+    <a href="galeria.html">Ir a la galería</a>
+    <br>
+    <script>
+        function changeColor(color) {
+            document.getElementById('cabecera').style.color=color;
+        }
+    </script>
+    <script src="js/index.js"></script>
+</body>
+</html>

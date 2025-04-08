@@ -1,0 +1,53 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+div.centrado{
+    width: 70%;
+    max-width: 390px;
+    margin: auto; 
+    border: 1px solid darkgray;
+    padding: 5px;
+}
+
+p.pie{
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+
+#galeria{
+margin-top: 20px;
+background-color: rgb(209, 209, 241);
+overflow: auto;
+}
+
+div.cuadro{
+    display: inline-block;
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px white solid;
+    background-color: rgb(245, 245, 245);
+}
+
+div.cuadro:hover{
+    border-color: black;
+}
+
+img.cuadro{
+    width: 100%;
+}
+
+p.cuadro{
+    margin: 0;
+    text-align: center;
+    color: gray;
+}
+
+div.cuadro:hover p.cuadro{
+    color: black;
+}
